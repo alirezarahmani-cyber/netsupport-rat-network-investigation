@@ -1,0 +1,15 @@
+timestamp_utc,event,frames,status
+2026-02-28T19:55:06.482909Z,Capture starts; DHCP Discover,1,Observed
+2026-02-28T19:55:08.956092Z,Domain service discovery via DNS,7–13,Observed
+2026-02-28T19:55:09.772238Z,Windows NCSI connectivity check,"87, 89",Observed
+2026-02-28T19:55:11.447608Z,NBNS hostname registration,"135, 136",Observed
+2026-02-28T19:55:23.053672Z,Kerberos AS-REQ for brolf,251,Observed
+2026-02-28T19:55:23.055670Z,TGT issued for brolf,253,Observed
+2026-02-28T19:55:23.237995Z,SAMR response identifies Becka Rolf,339,Observed
+2026-02-28T19:55:51.250094Z,DNS query for vadusa.xyz,"1559, 1747",Relationship unverified
+2026-02-28T19:55:51.373340Z,Initial SYN to 45.131.214.85:443,2569,Confirmed
+2026-02-28T19:55:51.523688Z,TCP handshake completes,2637,Confirmed
+2026-02-28T19:55:51.530968Z,First observed NetSupport HTTP POST,2638,Confirmed
+2026-02-28T19:55:51.678147Z,NetSupport Gateway response,2639,Confirmed
+2026-02-28T19:56:52.414979Z,Start of reviewed recurring POST sequence,"3807, 4093, 4134, 4149, 4201, 4211",Observed
+2026-02-28T23:18:22.402411Z,Reviewed Microsoft BITS-related connection begins,12953–12972,Observed

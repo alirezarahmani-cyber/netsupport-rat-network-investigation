@@ -1,0 +1,9 @@
+indicator_type,value,frames,assessment
+Remote IPv4,45.131.214.85,"2569, 2636, 2638",Alert-associated endpoint
+Remote endpoint,45.131.214.85:443/TCP,2569–2637,Connection context
+HTTP URI,/fakeurl.htm,2638,Application indicator
+User-Agent,NetSupport Manager/1.3,2638,Application indicator
+Server header,NetSupport Gateway/1.92 (Windows NT),2639,Application indicator
+Application message,CMD=POLL,2638,Polling indicator
+Application message,CMD=ENCD,"2639, 2640",Application indicator
+Behavior,Recurring HTTP POST at approximately 60-second intervals,"3807, 4093, 4134, 4149, 4201, 4211",Observed sequence only
